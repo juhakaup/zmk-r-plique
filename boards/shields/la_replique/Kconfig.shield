@@ -1,0 +1,5 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_LA_REPLIQUE
+    def_bool $(shields_list_contains,la_replique)
